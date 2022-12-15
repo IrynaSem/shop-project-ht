@@ -437,6 +437,7 @@ sup {
 
 .main {
     position: relative;
+
 }
 
 .asite {
@@ -445,6 +446,6 @@ sup {
     border: solid 2px red;
     position: absolute;
     top: 0px;
-    left: 70px;
+
 
 }

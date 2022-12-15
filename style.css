@@ -42,6 +42,20 @@ body {
     padding-right: 15px;
 }
 
+.col-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .logo {
     margin-top: 15px;
 }
@@ -73,13 +87,6 @@ body {
 .menu a:hover {
     background-color: rgb(44 113 184);
     color: white;
-}
-
-.col-9 {
-    flex: 0 0 75%;
-    max-width: 75%;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .serch-form {
@@ -169,7 +176,6 @@ input::placeholder {
     font-size: 21px;
     margin-top: 0;
     padding: 30px;
-
 }
 
 .sub-menu>li {
@@ -195,4 +201,250 @@ span {
 .menu>li:hover>a {
     background-color: rgb(44 113 184);
     color: white;
+}
+
+.slider {
+    height: 400px;
+}
+
+.text1 {
+    height: 50px;
+}
+
+.text1>a {
+    color: rgb(202, 219, 237);
+    line-height: 80px;
+}
+
+.text-name {
+    height: 100px;
+    color: white;
+    line-height: 80px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+
+.sort {
+    margin-top: 60px;
+}
+
+.menu-sort>li {
+    width: 100%;
+    background-color: rgba(202, 219, 237, 75%);
+}
+
+.menu-sort>li a:hover {
+    background-color: rgb(44 113 184);
+    color: white;
+}
+
+.menu-sort>li {
+    position: relative;
+}
+
+.menu-sort a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    text-decoration: none;
+    font-size: 21px;
+    color: rgb(44 113 184);
+}
+
+.sub-menu-sort {
+    position: absolute;
+    top: 40px;
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgb(44, 113, 184);
+    min-width: 100%;
+    z-index: 1;
+}
+
+.sub-menu-sort a {
+    color: white;
+    font-size: 21px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.menu-sort>li:hover .sub-menu-sort {
+    opacity: 1;
+    visibility: visible;
+}
+
+.sub-menu-sort>li a:hover {
+    background-color: white;
+    color: rgb(44 113 184);
+}
+
+.menu-sort>li:hover>a {
+    background-color: rgb(44 113 184);
+    color: white;
+}
+
+
+
+.form {
+    height: 650px;
+    border: solid 1px rgb(202, 219, 237);
+    margin-bottom: 30px;
+}
+
+[class*="sub-f"] {
+    background-color: rgb(202, 219, 237);
+    width: 270px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    position: relative;
+}
+
+.sub-form1 {
+    background-image: url(images/icon11.png);
+}
+
+.sub-form2 {
+    background-image: url(images/icon10.png);
+}
+
+.sub-form3 {
+    background-image: url(images/icon9.png);
+}
+
+.sub-form4 {
+    background-image: url(images/icon3.png);
+}
+
+.sub-form5 {
+    background-image: url(images/icon8.png);
+}
+
+.sub-form6 {
+    background-image: url(images/icon3.png);
+}
+
+.sub-form7 {
+    background-image: url(images/icon4.png);
+}
+
+.sub-form8 {
+    background-image: url(images/icon6.png);
+}
+
+.sub-form9 {
+    background-image: url(images/icon7.png);
+}
+
+h3 {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+p {
+    font-size: 21px;
+    color: white;
+    padding: 7px 5px 7px 15px;
+    line-height: 25px;
+}
+
+span {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+.prise {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.btn2 {
+    width: 210px;
+    height: 50px;
+    border: solid 1px white;
+    background-color: rgb(44 113 184);
+    margin: 10px 30px 10px 30px;
+    color: white;
+}
+
+.btn3 {
+    width: 210px;
+    height: 50px;
+    border: solid 1px white;
+    background-color: rgb(44 113 184);
+    margin: 10px 30px 10px 30px;
+    color: white;
+    background-image: url(images/icon15.png);
+    background-repeat: no-repeat;
+    background-position-x: 170px;
+    background-position-y: center;
+}
+
+[class*="zum"] {
+    width: 30px;
+    height: 30px;
+    border: solid 1px rgb(44 113 184);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.zum-heart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-image: url(images/icon\ 16.png);
+}
+
+.heart-zum {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background-image: url(images/icon14.png);
+}
+
+.heart-zum:hover {
+    background-color: rgb(44 113 184);
+}
+
+.zum-heart:hover {
+    background-color: rgb(44 113 184);
+}
+
+.btn2:hover {
+    background-color: rgba(202, 219, 237, 25%);
+}
+
+.btn3:hover {
+    background-color: rgba(202, 219, 237, 25%);
+}
+
+.main {
+    position: relative;
+}
+
+.asite {
+    width: 270px;
+    height: 845px;
+    border: solid 2px red;
+    position: absolute;
+    top: 0px;
+    left: 70px;
+
 }

@@ -439,10 +439,49 @@ sup {
 
 }
 
-.asite {
-    width: 270px;
-    height: 845px;
-    border: solid 2px red;
+.Filter {
+    border: 1px solid white;
     position: absolute;
     top: 0px;
+}
+
+.device-filter>h3,
+.color-filter>h3,
+.ram-filter>h3 {
+    font-size: 21px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.device-filter {
+    height: 155px;
+    padding: 30px;
+}
+
+.color-filter {
+    height: 250px;
+    padding: 30px;
+}
+
+.ram-filter {
+    height: 250px;
+    padding: 30px;
+}
+
+.p-filter {
+    color: white;
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+
+.inp-text {
+    color: white;
+    font-size: 21px;
+
+}
+
+.input {
+    margin: 10px;
 }
